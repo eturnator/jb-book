@@ -9,14 +9,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   
 # the name of your GitHub Repo. 
 # If there is no subpath for your site, use an empty string ""  
-baseurl: "/my-book-site" #@@@ CHANGE THIS -5 @@@#
+baseurl: "https://eturnator.github.io/jb-book/" #@@@ CHANGE THIS -5 @@@#
 
 
 # the base hostname & protocol for your site. 
 # Since we are deloying on GitHub pages, the URL has the format:
 # "https://your-github-username.github.io/" 
 # In my case is:
-url: "https://eturnator/jb-book.github.io/" #@@@ CHANGE THIS - 6 @@@#
+url: "https://eturnator.github.io/jb-book/"
 
 #######################
 # Jupyter Book settings
@@ -24,7 +24,7 @@ url: "https://eturnator/jb-book.github.io/" #@@@ CHANGE THIS - 6 @@@#
 
 # Main page settings
 # Optional: you can replace with <https://github.com/my-first-jupyter-book/my-book-site> your repo URL
-footer_text               : View source repository at <a href="https://github.com/my-first-jupyter-book/my-book-site"></a> #@@@ CHANGE THIS - 7 @@@#
+footer_text               : View source repository at <a href="https://eturnator.github.io/jb-book/"></a> #@@@ CHANGE THIS - 7 @@@#
 
 # Sidebar settings
 show_sidebar              : true  # Show the sidebar. Only set to false if your only wish to host a single page.
@@ -63,7 +63,7 @@ use_binder_button                : true  # If 'true', add a binder button for in
 binderhub_url                    : https://mybinder.org  # The URL for your BinderHub. If no URL, use ""
 
 
-binder_repo_base                 : https://github.com/my-first-jupyter-book/my-book-site  #@@@ CHANGE THIS @@@  -8 # # The site on which the textbook repository is hosted
+binder_repo_base                 : https://eturnator.github.io/jb-book/ #@@@ CHANGE THIS @@@  -8 # # The site on which the textbook repository is hosted
 binder_repo_org                  : my-first-jupyter-book  #@@@ CHANGE THIS @@@ - 9# # Your GitHub username
 
 binder_repo_name                 : my-book-site  # The project repo name

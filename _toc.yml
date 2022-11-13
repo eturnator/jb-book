@@ -1,7 +1,0 @@
-format: jb-book
-root: welcome
-chapters:
-  - file: reproducible-research
-  - file: overview/overview-definitions.md
-  - file: overview/overview-benefit.md
-  - file: overview/overview-resources.md
